@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-05-25 16:00:58
+# 客户端：Clash
+# 创建时间：2023-05-25 16:01:31
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：19
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -28,13 +27,11 @@ proxies:
   - {"name":"🇰🇷_KR_韩国_1","type":"ss","server":"43.202.40.246","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇹🇼_TW_台湾_1","type":"trojan","server":"165.154.227.239","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"163.123.192.156","port":443,"udp":true,"password":"a58ee451-368e-46d5-a57d-7d6dab1b4c42","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_3","type":"vless","server":"first.baoshi750105.top","port":443,"uuid":"d65eb109-efe6-4941-b726-674fe55f22ae","tls":true,"servername":"first.baoshi750105.top","network":"ws","ws-opts":{"path":"/caoyu1932"}}
   - {"name":"🇹🇼_TW_台湾_2","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"a58ee451-368e-46d5-a57d-7d6dab1b4c42","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_4","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_US_美国_3","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
   - {"name":"🇭🇰_HK_香港_2","type":"trojan","server":"awshk1.gsjc.cfd","port":443,"udp":true,"password":"04a34bba-af51-431d-b46e-a05b36c81a43","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
   - {"name":"🇸🇬_SG_新加坡","type":"trojan","server":"165.154.253.111","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_5","type":"trojan","server":"163.123.192.143","port":443,"udp":true,"password":"04a34bba-af51-431d-b46e-a05b36c81a43","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_4","type":"trojan","server":"163.123.192.143","port":443,"udp":true,"password":"04a34bba-af51-431d-b46e-a05b36c81a43","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷_KR_韩国_2","type":"ss","server":"43.201.47.15","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇹🇼_TW_台湾_3","type":"trojan","server":"165.154.226.87","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷_KR_韩国_3","type":"ss","server":"43.202.44.73","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
@@ -55,13 +52,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -82,13 +77,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -109,13 +102,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -135,13 +126,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -161,13 +150,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -187,13 +174,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
@@ -230,13 +215,11 @@ proxy-groups:
       - 🇰🇷_KR_韩国_1
       - 🇹🇼_TW_台湾_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
       - 🇹🇼_TW_台湾_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_3
       - 🇭🇰_HK_香港_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
       - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_4
       - 🇰🇷_KR_韩国_2
       - 🇹🇼_TW_台湾_3
       - 🇰🇷_KR_韩国_3
