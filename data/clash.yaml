@@ -1,12 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-05-25 15:58:28
-# 使用模版：ACL4SSR.ini
+# 创建时间：2023-05-25 15:59:48
+# 使用模版：V2RaySE 默认模版
 # 节点数量：50
-# 节点类型：trojan, vmess, ss, vless, ssr
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
